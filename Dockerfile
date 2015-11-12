@@ -15,5 +15,3 @@ RUN apk add --update curl &&\
     /usr/glibc/usr/bin/ldconfig /lib /usr/glibc/usr/lib && \
     apk del curl &&\
     rm -rf /var/cache/apk/*
-
-ENTRYPOINT ["/bin/bash"]
